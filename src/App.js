@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
 
     let divs = [1,2,3,4,5,6,7,8,9];
-    let elm = divs.map((number) => <div  onClick={ this.increaseCounter} className="item"><img src='https://1946.ska.ru/media/images/player/mini/5c88df7b06dc57_26735791.png' className={this.state.currentActiveId === number ? 'photo show' : 'photo'}/></div> )
+    let elm = divs.map((number) => <div  onClick={ this.increaseCounter} className="item"><img src='https://i.pinimg.com/originals/bf/ee/b8/bfeeb8f8530a27108daaa513a19e27bd.jpg' className={this.state.currentActiveId === number ? 'photo show' : 'photo'}/></div> )
 
     return (
        <div className='App'>
